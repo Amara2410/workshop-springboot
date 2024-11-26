@@ -1,0 +1,15 @@
+2024-11-26 15:30:36.459486-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM [*]USER"; expected "identifier"; SQL statement:
+SELECT * FROM USER [42001-232]
+2024-11-26 15:30:47.911417-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT  *  FROM [*]USER"; expected "identifier"; SQL statement:
+SELECT  *  FROM USER [42001-232]
+2024-11-26 15:30:59.739513-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT  *  FROM [*]USER"; expected "identifier"; SQL statement:
+SELECT  *  FROM USER [42001-232]
+2024-11-26 15:33:01.142841-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE [*]USER"; expected "identifier"; SQL statement:
+CREATE TABLE USER [42001-232]
+2024-11-26 15:36:13.636618-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * [*]FRINFORMATION_SCHEMA.USERS"; SQL statement:
+SELECT * FRINFORMATION_SCHEMA.USERS [42000-232]

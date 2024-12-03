@@ -11,17 +11,17 @@ import com.amara_dev.first_spring.repositories.UserRepository;
 
 @Component
 public class UserService {
-	 
+
 	@Autowired
 	private UserRepository repository;
-	
-	public List<User> findAll(){
-		return repository.findAll();	
+
+	public List<User> findAll() {
+		return repository.findAll();
 	}
-	
+
 	public User findById(Long id) {
-	Optional<User> obj = repository.findById(id);
-	return obj.get();
+		Optional<User> obj = repository.findById(id);
+		return obj.get();
 	}
 
 }
